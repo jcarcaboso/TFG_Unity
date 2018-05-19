@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/RaceMap.unity
+  isLoaded: 1
+  isActive: 1
