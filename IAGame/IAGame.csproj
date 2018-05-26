@@ -106,6 +106,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Extras\Script\CarMovement.cs" />
     <Compile Include="Assets\Extras\Script\CarSensors.cs" />
     <Compile Include="Assets\Extras\Script\CarSpawn.cs" />
     <Compile Include="Assets\Extras\Script\GameManager.cs" />

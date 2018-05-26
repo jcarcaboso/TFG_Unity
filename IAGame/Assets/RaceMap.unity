@@ -147,8 +147,7 @@ Transform:
 --- !u!81 &16088545
 AudioListener:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 81614177213458294, guid: 911fdb82ffa634e87a4c316ae4042d7d,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 16088543}
   m_Enabled: 1
@@ -4466,8 +4465,8 @@ MonoBehaviour:
   m_ReverseTorque: 500
   m_MaxHandbrakeTorque: 100000000
   m_Downforce: 100
-  m_SpeedType: 0
-  m_Topspeed: 150
+  m_SpeedType: 1
+  m_Topspeed: 200
   m_RevRangeBoundary: 1
   m_SlipLimit: 0.3
   m_BrakeTorque: 20000
@@ -4502,7 +4501,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 789798124}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 96468c245ae8e0d4f8f1c7a7b8b0542e, type: 3}
   m_Name: 
@@ -4534,7 +4533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 639444f14ac9f400089798a20b245955, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensor_length: 30
+  sensor_length: 10
   angle_sensors: 30
 --- !u!1 &820349568
 GameObject:
@@ -5498,7 +5497,6 @@ GameObject:
   - component: {fileID: 1533881170}
   - component: {fileID: 1533881169}
   - component: {fileID: 1533881168}
-  - component: {fileID: 1533881167}
   m_Layer: 8
   m_Name: MiniMapCamera
   m_TagString: Untagged
@@ -5520,14 +5518,6 @@ Transform:
   m_Father: {fileID: 1268223614}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!81 &1533881167
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 81076169644809674, guid: 911fdb82ffa634e87a4c316ae4042d7d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1533881165}
-  m_Enabled: 1
 --- !u!92 &1533881168
 Behaviour:
   m_ObjectHideFlags: 0
@@ -6313,7 +6303,6 @@ GameObject:
   - component: {fileID: 1896122394}
   - component: {fileID: 1896122393}
   - component: {fileID: 1896122392}
-  - component: {fileID: 1896122391}
   m_Layer: 8
   m_Name: Rear Camera Car
   m_TagString: RearCameraCar
@@ -6335,14 +6324,6 @@ Transform:
   m_Father: {fileID: 1268223614}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
---- !u!81 &1896122391
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 81263535557331082, guid: 911fdb82ffa634e87a4c316ae4042d7d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1896122389}
-  m_Enabled: 1
 --- !u!124 &1896122392
 Behaviour:
   m_ObjectHideFlags: 0
